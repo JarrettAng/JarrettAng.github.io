@@ -46,7 +46,7 @@ $(function() {
     hand.classList.add('wave');
     setTimeout(function() {
       hand.classList.remove('wave');
-    }, 1500);
+    }, 3000);
   }
 
   setTimeout(function() {

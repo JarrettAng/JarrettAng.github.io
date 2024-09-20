@@ -96,7 +96,7 @@ strong {
 .section {
   display: flex;
   justify-content: center;
-  padding: 100px 170px;
+  padding: 50px 170px;
   @include thirteen {
     padding: 100px;
   }
@@ -212,7 +212,7 @@ strong {
   background: transparent;
   border: none;
   outline: none;
-  width: 60px;
+  width: 70px;
   position: fixed;
   bottom: 25px;
   right: 10px;
@@ -221,11 +221,11 @@ strong {
   @include desktop {
     bottom: 20px;
     right: 7px;
-    width: 55px;
+    width: 65px;
   }
   @include mobile {
     bottom: 15px;
-    right: 3px;
+    right: 8px;
   }
 
   &:hover,
