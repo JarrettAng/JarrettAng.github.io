@@ -46,12 +46,12 @@ $(function() {
     hand.classList.add('wave');
     setTimeout(function() {
       hand.classList.remove('wave');
-    }, 2000);
+    }, 3000);
   }
 
   setTimeout(function() {
     waveOnLoad();
-  }, 1000);
+  }, 750);
 
   hand.addEventListener('mouseover', function() {
     hand.classList.add('wave');
