@@ -212,7 +212,7 @@ strong {
   background: transparent;
   border: none;
   outline: none;
-  width: 40px;
+  width: 60px;
   position: fixed;
   bottom: 25px;
   right: 10px;
@@ -221,7 +221,7 @@ strong {
   @include desktop {
     bottom: 20px;
     right: 7px;
-    width: 35px;
+    width: 55px;
   }
   @include mobile {
     bottom: 15px;
