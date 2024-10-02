@@ -7,13 +7,11 @@ languages:
 frameworks:
   - item: ImGUI
   - item: EnTT
-  - item: .NET
   - item: RTTR
   - item: RapidJson
 
 tools:
   - item: Unity 2D & 3D
-  - item: Unreal Engine
   - item: Visual Studio
   - item: Premake
   - item: Github

@@ -18,6 +18,8 @@
 
   &__hello, &__tagline {
     font-size: 2.5rem;
+    text-align: justify;
+
     @include desktop {
       font-size: 2.25rem;
     }
@@ -55,6 +57,7 @@
     .wave-hand {
       background-image: url('../img/emojis/wave.png');
       margin-left: 10px;
+      margin-top: auto;
       cursor: pointer;
 
       &.animated {
@@ -92,7 +95,8 @@
   }
   &__tagline {
     font-weight: 300;
-    max-width: 700px;
+    max-width: 710px;
+    margin-top: auto;
     .name {
       font-weight: 700;
     }
@@ -103,6 +107,7 @@
   &__contact {
     font-size: 1.25rem;
     font-weight: 400;
+    margin-top: auto;
     @include phablet {
       font-size: 1rem;
     }

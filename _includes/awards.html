@@ -1,0 +1,16 @@
+<section class="section achievements">
+  <div class="section__title">Achievements</div>
+  <div class="section__content">
+    {% for award in site.data.achievements %}
+    <div class="award">
+      <div class="time-place">
+        <div class="award__award">
+          <a href="{{award.url}}" target="_blank">{{award.award}}</a>
+        </div>
+        <div class="award__time">{{award.time}}</div>
+      </div>
+      <div class="award__position">{{award.source}}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

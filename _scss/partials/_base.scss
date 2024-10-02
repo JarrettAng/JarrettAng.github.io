@@ -96,7 +96,7 @@ strong {
 .section {
   display: flex;
   justify-content: center;
-  padding: 70px 170px;
+  padding: 80px 170px;
   @include thirteen {
     padding: 100px;
   }
@@ -112,7 +112,7 @@ strong {
   &__title {
     flex-shrink: 0;
     width: 200px;
-    margin-right: 70px;
+    margin-right: 100px;
     color: $blue;
     text-transform: uppercase;
     text-align: right;
@@ -133,7 +133,10 @@ strong {
     font-weight: 300;
     font-size: 1rem;
     width: 100%;
-    max-width: 650px;
+    max-width: 750px;
+
+    text-align: justify;
+
     @include tablet {
       padding-top: 30px;
       padding-left: 50px;
