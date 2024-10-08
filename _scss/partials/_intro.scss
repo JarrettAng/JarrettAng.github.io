@@ -6,6 +6,8 @@
   justify-content: space-around;
   max-width: 1440px;
   margin: 0 auto;
+  color: $white;
+
   @include weird-medium {
     padding: 120px 70px;
   }
@@ -17,6 +19,7 @@
   }
 
   &__hello, &__tagline {
+    z-index: 1; /* Object infront of video */
     font-size: 2.5rem;
     text-align: justify;
 
@@ -53,7 +56,9 @@
     }
   }
   &__hello {
+    z-index: 1; /* Object infront of video */
     font-weight: 300;
+
     .wave-hand {
       background-image: url('../img/emojis/wave.png');
       margin-left: 10px;
@@ -94,6 +99,7 @@
     }
   }
   &__tagline {
+    z-index: 1; /* Object infront of video */
     font-weight: 300;
     max-width: 710px;
     margin-top: auto;
@@ -105,6 +111,7 @@
     }
   }
   &__contact {
+    z-index: 1; /* Object infront of video */
     font-size: 1.25rem;
     font-weight: 400;
     margin-top: auto;
@@ -149,4 +156,14 @@
       }
     }
   }
+}
+
+#background-video {
+  position: absolute; /* Ensure the video fills the entire section */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Make the video cover the full area */
+  pointer-events: none; /* Prevent interaction with the video */
 }

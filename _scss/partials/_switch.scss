@@ -1,8 +1,9 @@
 .switch-wrapper {
+  z-index: 1; /* Object infront of video */
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 30px;
   @include mobile {

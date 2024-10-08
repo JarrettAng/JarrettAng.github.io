@@ -1,58 +1,61 @@
 .featured-projects {
+  margin-left: -15%;
+  @include thirteen {
+    margin-left: -10%;
+  }
+  @include desktop {
+    margin-left: -5%;
+  }
+  @include tablet {
+    margin-left: 0;
+  }
+
   a:after {
     display: none;
   }
   .project {
     display: flex;
-    margin-bottom: 100px;
-    margin-left: -5%;
-    width: 125%;
+    margin-bottom: 80px;
+    margin-left: -10%;
+    width: 150%;
     @include thirteen {
       width: 115%;
     }
     @include desktop {
+      margin-left: -5%;
       width: 105%;
     }
     @include tablet {
       width: 100%;
       display: block;
-      margin-bottom: 70px;
-    }
-    &.screentime {
+      margin-left: 0;
       margin-bottom: 70px;
     }
     &:last-of-type {
       margin-bottom: 0;
     }
     &__pic {
-      max-width: 700px;
+      max-width: 600px;
+      margin-left: 0;
       overflow: visible;
-      margin: 0;
       a {
         display: block;
-      }
-      &.phones {
-        a {
-          display: flex;
-          justify-content: space-between;
-        }
-        .phone {
-          margin: 0 -7%;
-          &:first-of-type {
-            margin-left: -5%;
-          }
-        }
       }
       img {
         width: 100%;
         max-width:100%;
         vertical-align: bottom;
       }
+      video {
+        width: 100%;
+        max-width: 100%;
+        margin-top: -1.5%;
+        vertical-align: bottom;
+      }
     }
     &__caption {
-      width: 300px;
-      flex-shrink: 0;
-      margin-left: 30px;
+      width: 450px;
+      flex-shrink: 0.75;
       @include tablet {
         width: 100%;
         margin-top: 25px;

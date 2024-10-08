@@ -3,6 +3,13 @@
   <div class="section__content">
     {% for project in site.data.other-projects %}
     <div class="project">
+      <figure class="project__pic">
+        <a href="https://blistabloc.com/" target="_blank">
+          <video autoplay loop muted playsinline>
+            <source src="{{site.baseurl}}/img/games/{{project.vid}}.webm" type="video/webm">
+          </video>
+        </a>
+      </figure>
       <div class="project__name">
         <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
       </div>
