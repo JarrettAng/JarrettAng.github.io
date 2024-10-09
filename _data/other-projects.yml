@@ -1,8 +1,19 @@
+- name: Mount Descent
+  jam: 'ScoreSpace Jam #8'
+  url: https://jarrett-ang.itch.io/mount-descent
+  code: https://jarrett-ang.itch.io/mount-descent
+  vid: Thumb_Mountain
+  description: Desc.
+  used:
+    - thing: Game Jam
+    - thing: Unity
+    - thing: Solo
+
 - name: Why Did I Quit Being A Pilot?
   jam: I Can't Write But Want To Tell A Story
   url: https://jarrett-ang.itch.io/why-did-i-quit-being-a-pilot
   code: https://jarrett-ang.itch.io/why-did-i-quit-being-a-pilot
-  vid: Thumb_DSMS
+  vid: Thumb_Pilot
   description: Desc.
   used:
     - thing: Game Jam
@@ -13,45 +24,13 @@
   jam: '101 HOURS JAM #1'
   url: https://jarrett-ang.itch.io/to-the-next-door
   code: https://jarrett-ang.itch.io/to-the-next-door
-  vid: Thumb_DSMS
+  vid: Thumb_NextDoor
   description: Desc.
   used:
     - thing: Game Jam
     - thing: Unity
     - thing: Solo
-
-- name: Dream Smasher
-  jam: THE UNDERDOG JAM CUP
-  url: https://jarrett-ang.itch.io/dream-smasher
-  code: https://jarrett-ang.itch.io/dream-smasher
-  vid: Thumb_DSMS
-  description: Desc.
-  used:
-    - thing: Game Jam
-    - thing: Unity
-    - thing: Solo
-
-- name: Mount Descent
-  jam: 'ScoreSpace Jam #8'
-  url: https://jarrett-ang.itch.io/mount-descent
-  code: https://jarrett-ang.itch.io/mount-descent
-  vid: Thumb_DSMS
-  description: Desc.
-  used:
-    - thing: Game Jam
-    - thing: Unity
-    - thing: Solo
-
-- name: Neo Horizon
-  jam: The First ScoreSpace x Polycade Jam!
-  url: https://jarrett-ang.itch.io/neo-horizon
-  code: https://jarrett-ang.itch.io/neo-horizon
-  vid: Thumb_DSMS
-  description: Desc.
-  used:
-    - thing: Game Jam
-    - thing: Unity
-    - thing: Duo
+    - thing: Best Gameplay
 
 - name: A Long Way Down
   jam: 'ScoreSpace Jam #6'
@@ -75,16 +54,16 @@
     - thing: Unity
     - thing: Duo
 
-- name: One In The Chamber
-  jam: 'GMTK Game Jam 2019'
-  url: https://nyzxe.itch.io/one-in-the-chamber
-  code: https://nyzxe.itch.io/one-in-the-chamber
-  vid: Thumb_DSMS
+- name: Dream Smasher
+  jam: THE UNDERDOG JAM CUP
+  url: https://jarrett-ang.itch.io/dream-smasher
+  code: https://jarrett-ang.itch.io/dream-smasher
+  vid: Thumb_DreamSmasher
   description: Desc.
   used:
     - thing: Game Jam
     - thing: Unity
-    - thing: Quadra
+    - thing: Solo
 
 - name: Reverso
   jam: 'CCAW JAM'
@@ -107,6 +86,17 @@
     - thing: Game Jam
     - thing: Unity
     - thing: Duo
+
+- name: One In The Chamber
+  jam: 'GMTK Game Jam 2019'
+  url: https://nyzxe.itch.io/one-in-the-chamber
+  code: https://nyzxe.itch.io/one-in-the-chamber
+  vid: Thumb_DSMS
+  description: Desc.
+  used:
+    - thing: Game Jam
+    - thing: Unity
+    - thing: Quadra
 
 - name: The Finite Hallway
   jam: 'Weekly Game Jam - Week 87'

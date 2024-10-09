@@ -8,7 +8,7 @@ frameworks:
   - item: ImGUI
   - item: EnTT
   - item: RTTR
-  - item: RapidJson
+  - item: RapidJSON
 
 tools:
   - item: Unity 2D & 3D

@@ -16,19 +16,17 @@
   .project {
     display: flex;
     margin-bottom: 80px;
-    margin-left: -10%;
+    margin-left: 0;
     width: 150%;
     @include thirteen {
       width: 115%;
     }
     @include desktop {
-      margin-left: -5%;
       width: 105%;
     }
     @include tablet {
       width: 100%;
       display: block;
-      margin-left: 0;
       margin-bottom: 70px;
     }
     &:last-of-type {
