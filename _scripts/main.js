@@ -26,13 +26,20 @@ $(function() {
   const topButton = document.getElementById('top-button');
   const $topButton = $('#top-button');
 
+  const sun = document.querySelector('.sun');
+  const moon = document.querySelector('.moon');
+
   window.addEventListener(
     'scroll',
     function() {
       if (window.scrollY > introHeight) {
         $topButton.fadeIn();
+        sun.id = '';
+        moon.id = '';
       } else {
         $topButton.fadeOut();
+        sun.id = 'light-sun';
+        moon.id = 'light-moon';
       }
     },
     false
