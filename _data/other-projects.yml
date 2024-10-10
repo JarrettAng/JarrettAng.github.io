@@ -36,7 +36,7 @@
   jam: 'ScoreSpace Jam #6'
   url: https://soulbounded.itch.io/a-long-way-down
   code: https://soulbounded.itch.io/a-long-way-down
-  vid: Thumb_DSMS
+  vid: Thumb_LongWayDown
   description: Desc.
   used:
     - thing: Game Jam
@@ -47,7 +47,7 @@
   jam: 'Kenney Jam 2019'
   url: https://jarrett-ang.itch.io/combinracers
   code: https://jarrett-ang.itch.io/combinracers
-  vid: Thumb_DSMS
+  vid: Thumb_Combinracers
   description: Desc.
   used:
     - thing: Game Jam
@@ -69,7 +69,7 @@
   jam: 'CCAW JAM'
   url: https://jarrett-ang.itch.io/reverso
   code: https://jarrett-ang.itch.io/reverso
-  vid: Thumb_DSMS
+  vid: Thumb_Reverso
   description: Desc.
   used:
     - thing: Game Jam
@@ -80,7 +80,18 @@
   jam: 'Pizza Jam'
   url: https://jarrett-ang.itch.io/love-triangle
   code: https://jarrett-ang.itch.io/love-triangle
-  vid: Thumb_DSMS
+  vid: Thumb_LoveTriangle
+  description: Desc.
+  used:
+    - thing: Game Jam
+    - thing: Unity
+    - thing: Duo
+
+- name: The Finite Hallway
+  jam: 'Weekly Game Jam - Week 87'
+  url: https://soulbounded.itch.io/the-finite-hallway
+  code: https://soulbounded.itch.io/the-finite-hallway
+  vid: Thumb_FiniteHallway
   description: Desc.
   used:
     - thing: Game Jam
@@ -91,29 +102,18 @@
   jam: 'GMTK Game Jam 2019'
   url: https://nyzxe.itch.io/one-in-the-chamber
   code: https://nyzxe.itch.io/one-in-the-chamber
-  vid: Thumb_DSMS
+  vid: Thumb_OneInChamber
   description: Desc.
   used:
     - thing: Game Jam
     - thing: Unity
     - thing: Quadra
 
-- name: The Finite Hallway
-  jam: 'Weekly Game Jam - Week 87'
-  url: https://soulbounded.itch.io/the-finite-hallway
-  code: https://soulbounded.itch.io/the-finite-hallway
-  vid: Thumb_DSMS
-  description: Desc.
-  used:
-    - thing: Game Jam
-    - thing: Unity
-    - thing: Duo
-
 - name: Water Drops
   jam: 'Extra Credits Game Jam #3'
   url: https://jarrett-ang.itch.io/water-drops
   code: https://jarrett-ang.itch.io/water-drops
-  vid: Thumb_DSMS
+  vid: Thumb_WaterDrops
   description: Desc.
   used:
     - thing: Game Jam
@@ -124,9 +124,9 @@
   jam: 'HackOMania 2019'
   url: https://drive.google.com/drive/folders/1bLxLnleXrFkAiu3LI3TeV_zVEk1q1p7V
   code: https://drive.google.com/drive/folders/1bLxLnleXrFkAiu3LI3TeV_zVEk1q1p7V
-  vid: Thumb_DSMS
+  vid: Thumb_Singlist
   description: Desc.
   used:
-    - thing: Game Jam
+    - thing: Hackathon
     - thing: Unity
-    - thing: Duo
+    - thing: Quadra

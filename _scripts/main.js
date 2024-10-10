@@ -1,4 +1,5 @@
 $(function() {
+  //--------------------------------------------------------------- SWITCH ---------------------------------------------------------------
   const d = new Date();
   const hours = d.getHours();
   const night = false; // between 7pm and 7am
@@ -19,7 +20,8 @@ $(function() {
       body.classList.add('night');
     }
   });
-
+  //--------------------------------------------------------------- SWITCH ---------------------------------------------------------------
+  //--------------------------------------------------------------- SCOLL UP ---------------------------------------------------------------
   const introHeight = document.querySelector('.intro').offsetHeight;
   const topButton = document.getElementById('top-button');
   const $topButton = $('#top-button');
@@ -39,7 +41,8 @@ $(function() {
   topButton.addEventListener('click', function() {
     $('html, body').animate({ scrollTop: 0 }, 500);
   });
-
+  //--------------------------------------------------------------- SCOLL UP ---------------------------------------------------------------
+  //--------------------------------------------------------------- INTRO ---------------------------------------------------------------
   const hand = document.querySelector('.emoji.wave-hand');
 
   function waveOnLoad() {
@@ -75,4 +78,32 @@ $(function() {
   sr.reveal('.achievements', { viewFactor: 0.2 });
   sr.reveal('.featured-projects', { viewFactor: 0.1 });
   sr.reveal('.other-projects', { viewFactor: 0.05 });
+  //--------------------------------------------------------------- INTRO ---------------------------------------------------------------
+  //--------------------------------------------------------------- VIDEOS ---------------------------------------------------------------
+  document.addEventListener('DOMContentLoaded', function() {
+    const lazyVideos = document.querySelectorAll('video[data-src]');
+  
+    function loadVideo(video) {
+      const source = video.querySelector('source');
+      if (source && video.dataset.src) {
+        video.src = video.dataset.src; // Assign data-src to the video src
+        source.src = video.dataset.src; // Assign data-src to the source src
+        video.load(); // Load the video
+      }
+    }
+  
+    let observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          loadVideo(entry.target); // Load video when it's in view
+          observer.unobserve(entry.target); // Stop observing after loading
+        }
+      });
+    });
+  
+    lazyVideos.forEach(video => {
+      observer.observe(video);
+    });
+  });
+  //--------------------------------------------------------------- VIDEOS ---------------------------------------------------------------
 });

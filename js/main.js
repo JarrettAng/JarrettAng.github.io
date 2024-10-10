@@ -79,4 +79,31 @@ $(function() {
   sr.reveal('.featured-projects', { viewFactor: 0.1 });
   sr.reveal('.other-projects', { viewFactor: 0.05 });
   //--------------------------------------------------------------- INTRO ---------------------------------------------------------------
+  //--------------------------------------------------------------- VIDEOS ---------------------------------------------------------------
+  document.addEventListener('DOMContentLoaded', function() {
+    const lazyVideos = document.querySelectorAll('video[data-src]');
+  
+    function loadVideo(video) {
+      const source = video.querySelector('source');
+      if (source && video.dataset.src) {
+        video.src = video.dataset.src; // Assign data-src to the video src
+        source.src = video.dataset.src; // Assign data-src to the source src
+        video.load(); // Load the video
+      }
+    }
+  
+    let observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          loadVideo(entry.target); // Load video when it's in view
+          observer.unobserve(entry.target); // Stop observing after loading
+        }
+      });
+    });
+  
+    lazyVideos.forEach(video => {
+      observer.observe(video);
+    });
+  });
+  //--------------------------------------------------------------- VIDEOS ---------------------------------------------------------------
 });
