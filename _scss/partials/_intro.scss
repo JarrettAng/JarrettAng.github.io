@@ -118,6 +118,9 @@
     @include phablet {
       font-size: 1rem;
     }
+    a {
+      margin-right: 10px;
+    }
     .emoji {
       &.pointer {
         background-image: url('../img/emojis/pointright.png');

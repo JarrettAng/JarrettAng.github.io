@@ -79,12 +79,72 @@ $(function() {
     viewFactor: 0.3,
   });
 
-  sr.reveal('.background');
-  sr.reveal('.skills');
-  sr.reveal('.experience', { viewFactor: 0.2 });
-  sr.reveal('.achievements', { viewFactor: 0.2 });
-  sr.reveal('.featured-projects', { viewFactor: 0.1 });
-  sr.reveal('.other-projects', { viewFactor: 0.05 });
+  sr.reveal('.background', {
+    distance: '50px',
+    origin: 'bottom',
+    viewFactor: 0.1,
+    duration: 400,
+    delay: 100,
+    scale: 0.95, 
+  });
+  sr.reveal('.skills', {
+    distance: '50px',
+    origin: 'bottom',
+    viewFactor: 0.1,
+    duration: 400,
+    delay: 100,
+    scale: 0.95, 
+  });
+  sr.reveal('.experience', {
+    distance: '50px',
+    origin: 'bottom',
+    viewFactor: 0.2,
+    duration: 400,
+    delay: 100,
+    scale: 0.95, 
+  });
+  sr.reveal('.achievements', {
+    distance: '50px',
+    origin: 'bottom',
+    viewFactor: 0.2,
+    duration: 400,
+    delay: 100,
+    scale: 0.95, 
+  });
+  sr.reveal('.featured-projects', {
+    distance: '50px',
+    origin: 'bottom',
+    viewFactor: 0.1,
+    duration: 400,
+    delay: 100,
+    scale: 0.95, 
+  });
+  sr.reveal('.other-projects', {
+    distance: '50px',
+    origin: 'bottom',
+    viewFactor: 0.05,
+    duration: 400,
+    delay: 100,
+    scale: 0.95, 
+  });
+
+  // Projects
+  sr.reveal('.featured-projects .project', {
+    distance: '50px',
+    origin: 'bottom',
+    viewFactor: 0.1,
+    duration: 800,
+    delay: 100,
+    scale: 0.9, 
+  });
+  sr.reveal('.other-projects .project', {
+    distance: '50px',
+    origin: 'bottom',
+    viewFactor: 0.1,
+    duration: 800,
+    delay: 100,
+    scale: 0.9, 
+  });
   //--------------------------------------------------------------- INTRO ---------------------------------------------------------------
   //--------------------------------------------------------------- VIDEOS ---------------------------------------------------------------
   document.addEventListener('DOMContentLoaded', function() {

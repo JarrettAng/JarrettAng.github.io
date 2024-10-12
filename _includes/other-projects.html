@@ -1,10 +1,10 @@
 <section class="section other-projects">
-  <div class="section__title">Other Projects</div>
+  <div class="section__title">Game Jams & School Projects</div>
   <div class="section__content">
     {% for project in site.data.other-projects %}
     <div class="project">
       <figure class="project__pic">
-        <video class = "projectVideo" autoplay loop muted playsinline>
+        <video class="projectVideo" autoplay loop muted playsinline>
           <source src="{{site.baseurl}}/img/games/{{project.vid}}.webm" type="video/webm">
         </video>
       </figure>
@@ -12,7 +12,7 @@
         <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
       </div>
       <p>{{project.jam}}</p>
-      <p>{{project.description}}</p>
+      <p>{{ project.description | newline_to_br }}</p>
       <div class="project__used">
         {% for item in project.used %}
         <span class="project__used__item">{{item.thing}}</span>

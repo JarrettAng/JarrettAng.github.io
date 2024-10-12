@@ -1,7 +1,7 @@
 .featured-projects {
-  margin-left: -15%;
+  margin-left: -10%;
   @include thirteen {
-    margin-left: -10%;
+    margin-left: -5%;
   }
   @include desktop {
     margin-left: -5%;
@@ -15,7 +15,7 @@
   }
   .project {
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     margin-left: 0;
     width: 150%;
     @include thirteen {
@@ -33,7 +33,7 @@
       margin-bottom: 0;
     }
     &__pic {
-      max-width: 600px;
+      max-width: 800px;
       margin-left: 0;
       overflow: visible;
       a {

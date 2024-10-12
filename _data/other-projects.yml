@@ -3,18 +3,10 @@
   url: https://jarrett-ang.itch.io/mount-descent
   code: https://jarrett-ang.itch.io/mount-descent
   vid: Thumb_Mountain
-  description: Desc.
-  used:
-    - thing: Game Jam
-    - thing: Unity
-    - thing: Solo
-
-- name: Why Did I Quit Being A Pilot?
-  jam: I Can't Write But Want To Tell A Story
-  url: https://jarrett-ang.itch.io/why-did-i-quit-being-a-pilot
-  code: https://jarrett-ang.itch.io/why-did-i-quit-being-a-pilot
-  vid: Thumb_Pilot
-  description: Desc.
+  description: |
+    Mount Descent is about balancing a marble down a winding path down a mountain by spinning the mountain. I was given 3 days to brainstorm and publish a game relating to the theme "Balance".
+    
+    I was the sole developer of the game. I focused most of my time on the procedural path generation, menu and level design, and the mountain rotation with keyboard, mouse, and gyroscope controls.
   used:
     - thing: Game Jam
     - thing: Unity
@@ -25,30 +17,78 @@
   url: https://jarrett-ang.itch.io/to-the-next-door
   code: https://jarrett-ang.itch.io/to-the-next-door
   vid: Thumb_NextDoor
-  description: Desc.
+  description:  |
+    To The Next Door! is a fast-paced shooter where the player's chooses what upgrades both they and the enemies get. I was given 4 days to brainstorm and publish a game relating to the theme "Doors".
+
+    I was the sole developer of the game. I spent time polishing the AI behaviour, giving each type of enemy a unique fight style that takes advantage of their weapon they have. I have also polished the feel of the game, adding screen shake, persistent aftermath of bullets and enemies, and visual feedback on hit.
   used:
     - thing: Game Jam
     - thing: Unity
     - thing: Solo
-    - thing: Best Gameplay
+    - thing: Won Best Gameplay
+
+- name: Volcano Vault
+  jam: Digipen DES214
+  url: 
+  code: 
+  vid: Thumb_VolcanoVault
+  description:  |
+    Desc.
+  used:
+    - thing: School Project
+    - thing: Unity
+    - thing: Solo
+
+- name: Getaway Driver
+  jam: Digipen DES214
+  url: 
+  code: 
+  vid: Thumb_GetawayDriver
+  description:  |
+    Desc.
+  used:
+    - thing: School Project
+    - thing: Unity
+    - thing: Solo
 
 - name: A Long Way Down
   jam: 'ScoreSpace Jam #6'
   url: https://soulbounded.itch.io/a-long-way-down
   code: https://soulbounded.itch.io/a-long-way-down
   vid: Thumb_LongWayDown
-  description: Desc.
+  description: |
+    A Long Way Down is an endless faller where actions done by the player may have consequences. We were given 3 days to brainstorm and publish a game relating to the theme "Karma".
+
+    I was in charge of implementing the tutorial system, programming of the player and enemies' movement and health, level generation, and game balancing.
   used:
     - thing: Game Jam
     - thing: Unity
     - thing: Duo
+    - thing: Won 2nd Place
+  
+- name: Why Did I Quit Being A Pilot?
+  jam: I Can't Write But Want To Tell A Story
+  url: https://jarrett-ang.itch.io/why-did-i-quit-being-a-pilot
+  code: https://jarrett-ang.itch.io/why-did-i-quit-being-a-pilot
+  vid: Thumb_Pilot
+  description: |
+    Why did I quit being a pilot? is a short story game about rediscovering the reason why you quit your job as a pilot. I was given 7 days to brainstorm and publish a game relating to the theme "Lost".
+
+    I was the sole developer of the game. For this game jam I wanted to practice my digital art skills, and spent more time drawing and polishing all the characters and backgrounds in the game. I also implemented a simple click-to-advance story system.
+  used:
+    - thing: Game Jam
+    - thing: Unity
+    - thing: Solo
 
 - name: CombinRacers
   jam: 'Kenney Jam 2019'
   url: https://jarrett-ang.itch.io/combinracers
   code: https://jarrett-ang.itch.io/combinracers
   vid: Thumb_Combinracers
-  description: Desc.
+  description: |
+    CombinRacers is an arcade game where players steer a race car by scoring in mini-games. We were given 3 days to brainstorm and publish a game relating to the theme "Unlikely Combinations".
+
+    I was in charge of the implementation of the 2 mini-games, the sound design and the tutorial, and game menus and programming of the car spawning and player movement, level generation, and game balancing.
   used:
     - thing: Game Jam
     - thing: Unity
@@ -59,7 +99,10 @@
   url: https://jarrett-ang.itch.io/dream-smasher
   code: https://jarrett-ang.itch.io/dream-smasher
   vid: Thumb_DreamSmasher
-  description: Desc.
+  description: |
+    Dream Smasher an air juggling game where the player has to balance between popping more clouds to gain points and landing home to score them. I was given 3 days to brainstorm and publish a game relating to the theme "Dream".
+
+    I was the sole developer of the game. For this game jam, I spent more time focusing on polishing the visual and sound effects, adding tiny effects like time slow to make each hit feel more impactful.
   used:
     - thing: Game Jam
     - thing: Unity
@@ -70,7 +113,10 @@
   url: https://jarrett-ang.itch.io/reverso
   code: https://jarrett-ang.itch.io/reverso
   vid: Thumb_Reverso
-  description: Desc.
+  description: |
+    Reverso is a gravity switching side-scroller with powerups. We were given 3 days to brainstorm and publish a game relating to the theme "Reverse Gravity".
+
+    I was in charge of the level design, sound design and programming of the power-ups effects, smooth camera and player movement.
   used:
     - thing: Game Jam
     - thing: Unity
@@ -81,7 +127,10 @@
   url: https://jarrett-ang.itch.io/love-triangle
   code: https://jarrett-ang.itch.io/love-triangle
   vid: Thumb_LoveTriangle
-  description: Desc.
+  description: |
+    Love Triangle is a side-scroller visual novel about a circle who wants to be someone else. We were given 3 days to brainstorm and publish a game relating to one of the sequence names of Shadow the Hedgehog.
+
+    I was in charge of the level, sound, and final mountain parkour design, writing the dialogue for the game's protagonist and programming the player movement.
   used:
     - thing: Game Jam
     - thing: Unity
@@ -92,7 +141,10 @@
   url: https://soulbounded.itch.io/the-finite-hallway
   code: https://soulbounded.itch.io/the-finite-hallway
   vid: Thumb_FiniteHallway
-  description: Desc.
+  description: |
+    The Finite Hallway is a first-person puzzle game where the player is trapped in a seemingly endless hallway. We were given 1 week to brainstorm and publish a game relating to the theme "Infinite Hallway".
+
+    I was in charge of the implementation of 2 mini games, writing the dialogue for the game's antagonist, programming the player movement and progress tracking.
   used:
     - thing: Game Jam
     - thing: Unity
@@ -103,7 +155,10 @@
   url: https://nyzxe.itch.io/one-in-the-chamber
   code: https://nyzxe.itch.io/one-in-the-chamber
   vid: Thumb_OneInChamber
-  description: Desc.
+  description: |
+    One in the Chamber is an arena shooter where the player holds a gun with only one bullet. We were given 3 days to brainstorm and publish a game relating to the theme "Only One".
+
+    I was in charge of sound design, programming the player movement and health and playtesting.
   used:
     - thing: Game Jam
     - thing: Unity
@@ -114,7 +169,10 @@
   url: https://jarrett-ang.itch.io/water-drops
   code: https://jarrett-ang.itch.io/water-drops
   vid: Thumb_WaterDrops
-  description: Desc.
+  description: |
+    Water Drops is an endless faller where the player controls a water drop. We were given 4 days to brainstorm and publish a game relating to the theme "Cycle".
+
+    I was in charge of programming the endless faller mechanics like cloud generation, scoring, and player movement.
   used:
     - thing: Game Jam
     - thing: Unity
@@ -125,7 +183,10 @@
   url: https://drive.google.com/drive/folders/1bLxLnleXrFkAiu3LI3TeV_zVEk1q1p7V
   code: https://drive.google.com/drive/folders/1bLxLnleXrFkAiu3LI3TeV_zVEk1q1p7V
   vid: Thumb_Singlist
-  description: Desc.
+  description: |
+    SingList is a party game where players transcribe the audio of their friends, to collect and transcribe as many audio files in Singlish for Speech-to-text machine learning. 
+    
+    I was in charge of creating a working prototype or game within 24 hours, such as designing the game's U.I. and scripting features like audio recording, transcription, a scoring system, and player customization using Unity 2D.
   used:
     - thing: Hackathon
     - thing: Unity

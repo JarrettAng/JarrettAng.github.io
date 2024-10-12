@@ -1,31 +1,29 @@
 .other-projects {
   .project {
     max-width: 600px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     &__name {
       margin-bottom: 10px;
     }
     &__pic {
-      max-width: 450px;
       overflow: visible;
       a {
         display: block;
       }
       img {
-        width: 100%;
-        max-width:100%;
+        max-width: 108%;
         margin-left: -9%;
         display: block;
       }
       video {
-        width: 100%;
-        max-width: 100%;
+        max-width: 108%;
         margin-left: -9%;
         display: block;
       }
     }
     p {
       font-size: 0.9rem;
+      max-width: 90%;
       margin-bottom: 20px;
     }
     &__used {
