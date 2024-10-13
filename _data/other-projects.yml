@@ -33,7 +33,9 @@
   code: 
   vid: Thumb_VolcanoVault
   description:  |
-    Desc.
+    Volcano Vault is an adventure prototype made for a level design class in Digipen. The prototype contains a 10 minute exploration around a mountainous terrain with a volcanic twist.
+
+    The focus of this prototype was to practice designing an engaging story game that flows well with different phases. I also practiced polishing the experience with animations like the helicopter and particle effects like the volcano eruption.
   used:
     - thing: School Project
     - thing: Unity
@@ -45,7 +47,9 @@
   code: 
   vid: Thumb_GetawayDriver
   description:  |
-    Desc.
+    Getaway Driver is a top-down shooter made for a level design class in Digipen. The prototype contains a 10 minute police chase through a procedurally generated town.
+
+    The prototype features a destructible town, collectibles, a shop containing multiple weapons and upgrades such as land mines and exploding bullets, different police car types with different chase AI. More time was spent on polishing the level generation to make each generated town more distinct from each other.
   used:
     - thing: School Project
     - thing: Unity

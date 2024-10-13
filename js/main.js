@@ -82,7 +82,7 @@ $(function() {
   sr.reveal('.background', {
     distance: '50px',
     origin: 'bottom',
-    viewFactor: 0.1,
+    viewFactor: 0.2,
     duration: 400,
     delay: 100,
     scale: 0.95, 
@@ -90,7 +90,7 @@ $(function() {
   sr.reveal('.skills', {
     distance: '50px',
     origin: 'bottom',
-    viewFactor: 0.1,
+    viewFactor: 0.5,
     duration: 400,
     delay: 100,
     scale: 0.95, 
@@ -98,7 +98,7 @@ $(function() {
   sr.reveal('.experience', {
     distance: '50px',
     origin: 'bottom',
-    viewFactor: 0.2,
+    viewFactor: 0.5,
     duration: 400,
     delay: 100,
     scale: 0.95, 
@@ -106,7 +106,7 @@ $(function() {
   sr.reveal('.achievements', {
     distance: '50px',
     origin: 'bottom',
-    viewFactor: 0.2,
+    viewFactor: 0.5,
     duration: 400,
     delay: 100,
     scale: 0.95, 
@@ -122,7 +122,7 @@ $(function() {
   sr.reveal('.other-projects', {
     distance: '50px',
     origin: 'bottom',
-    viewFactor: 0.05,
+    viewFactor: 0.01,
     duration: 400,
     delay: 100,
     scale: 0.95, 
@@ -146,31 +146,4 @@ $(function() {
     scale: 0.9, 
   });
   //--------------------------------------------------------------- INTRO ---------------------------------------------------------------
-  //--------------------------------------------------------------- VIDEOS ---------------------------------------------------------------
-  document.addEventListener('DOMContentLoaded', function() {
-    const lazyVideos = document.querySelectorAll('video[data-src]');
-  
-    function loadVideo(video) {
-      const source = video.querySelector('source');
-      if (source && video.dataset.src) {
-        video.src = video.dataset.src; // Assign data-src to the video src
-        source.src = video.dataset.src; // Assign data-src to the source src
-        video.load(); // Load the video
-      }
-    }
-  
-    let observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          loadVideo(entry.target); // Load video when it's in view
-          observer.unobserve(entry.target); // Stop observing after loading
-        }
-      });
-    });
-  
-    lazyVideos.forEach(video => {
-      observer.observe(video);
-    });
-  });
-  //--------------------------------------------------------------- VIDEOS ---------------------------------------------------------------
 });
