@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://JarrettAng.github.io/sitemap.xml
+Sitemap: https://jarrettang.github.io/sitemap.xml
