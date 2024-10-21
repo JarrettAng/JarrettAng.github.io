@@ -22,4 +22,20 @@
       }
     }
   }
+  .more {
+    margin-top: 25px;
+    .emoji {
+      &.down {
+        background-image: url('../img/emojis/pointing-down.png');
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        vertical-align: text-top;
+        @include phablet {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
 }

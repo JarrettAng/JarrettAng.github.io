@@ -52,7 +52,7 @@
       }
     }
     &__caption {
-      width: 500px;
+      width: 550px;
       flex-shrink: 0.75;
       @include tablet {
         width: 100%;
@@ -76,6 +76,25 @@
         font-weight: 700;
       }
     }
+    &__used {
+      &__item {
+        display: inline-block;
+        margin: 3px 3px 3px 0;
+        margin-top: 15px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 0.75rem;
+        font-weight: 700;
+        padding: 2px 7px;
+        border-radius: 3px;
+        color: $blue;
+        border: 1px solid $blue;
+        background: transparent;
+        &:first-of-type {
+          margin-left: 0;
+        }
+      }
+    }
+
     p {
       font-size: 0.85rem;
       line-height: 1.3;

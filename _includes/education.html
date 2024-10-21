@@ -1,0 +1,21 @@
+<section class="section experience">
+  <div class="section__title">Education</div>
+  <div class="section__content">
+    {% for school in site.data.education %}
+    <div class="school">
+      <div class="time-place">
+        <div class="school__company">
+          <a href="{{school.url}}" target="_blank">{{school.school}}</a>
+        </div>
+        <div class="school__time">{{school.time}}</div>
+      </div>
+      <div class="school__position">{{school.title}}</div>
+      <ul>
+        {% for stat in school.stats %}
+        <li class="project__stat">{{stat.stat}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>

@@ -4,11 +4,11 @@ languages:
   - item: C
   - item: Python
 
-frameworks:
-  - item: ImGUI
-  - item: EnTT
-  - item: RTTR
-  - item: RapidJSON
+platforms:
+  - item: Windows
+  - item: Android
+  - item: iOS / MacOS
+  - item: WebGL
 
 tools:
   - item: Unity 2D & 3D

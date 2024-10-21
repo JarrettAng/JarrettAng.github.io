@@ -114,7 +114,7 @@ $(function() {
   sr.reveal('.featured-projects', {
     distance: '50px',
     origin: 'bottom',
-    viewFactor: 0.1,
+    viewFactor: 0.01,
     duration: 400,
     delay: 100,
     scale: 0.95, 

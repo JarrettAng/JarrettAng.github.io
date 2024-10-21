@@ -9,8 +9,13 @@
     I was the sole developer of the game. I focused most of my time on the procedural path generation, menu and level design, and the mountain rotation with keyboard, mouse, and gyroscope controls.
   used:
     - thing: Game Jam
-    - thing: Unity
+    - thing: Unity 3D
     - thing: Solo
+    - thing: C#
+    - thing: Android
+    - thing: Windows
+    - thing: Linux
+    - thing: WebGL
 
 - name: To The Next Door!
   jam: '101 HOURS JAM #1'
@@ -23,9 +28,13 @@
     I was the sole developer of the game. I spent time polishing the AI behaviour, giving each type of enemy a unique fight style that takes advantage of their weapon they have. I have also polished the feel of the game, adding screen shake, persistent aftermath of bullets and enemies, and visual feedback on hit.
   used:
     - thing: Game Jam
-    - thing: Unity
-    - thing: Solo
     - thing: Won Best Gameplay
+    - thing: Unity 2D
+    - thing: Solo
+    - thing: C#
+    - thing: Windows
+    - thing: Linux
+    - thing: WebGL
 
 - name: Volcano Vault
   jam: Digipen DES214
@@ -37,9 +46,10 @@
 
     The focus of this prototype was to practice designing an engaging story game that flows well with different phases. I also practiced polishing the experience with animations like the helicopter and particle effects like the volcano eruption.
   used:
-    - thing: School Project
-    - thing: Unity
+    - thing: Unity 3D
     - thing: Solo
+    - thing: C#
+    - thing: Windows
 
 - name: Getaway Driver
   jam: Digipen DES214
@@ -51,9 +61,10 @@
 
     The prototype features a destructible town, collectibles, a shop containing multiple weapons and upgrades such as land mines and exploding bullets, different police car types with different chase AI. More time was spent on polishing the level generation to make each generated town more distinct from each other.
   used:
-    - thing: School Project
-    - thing: Unity
+    - thing: Unity 3D
     - thing: Solo
+    - thing: C#
+    - thing: Windows
 
 - name: A Long Way Down
   jam: 'ScoreSpace Jam #6'
@@ -66,9 +77,13 @@
     I was in charge of implementing the tutorial system, programming of the player and enemies' movement and health, level generation, and game balancing.
   used:
     - thing: Game Jam
-    - thing: Unity
-    - thing: Duo
     - thing: Won 2nd Place
+    - thing: Unity 2D
+    - thing: Duo
+    - thing: C#
+    - thing: Windows
+    - thing: Linux
+    - thing: WebGL
   
 - name: Why Did I Quit Being A Pilot?
   jam: I Can't Write But Want To Tell A Story
@@ -81,8 +96,13 @@
     I was the sole developer of the game. For this game jam I wanted to practice my digital art skills, and spent more time drawing and polishing all the characters and backgrounds in the game. I also implemented a simple click-to-advance story system.
   used:
     - thing: Game Jam
-    - thing: Unity
+    - thing: Unity 2D
     - thing: Solo
+    - thing: C#
+    - thing: Android
+    - thing: Windows
+    - thing: Linux
+    - thing: WebGL
 
 - name: CombinRacers
   jam: 'Kenney Jam 2019'
@@ -97,6 +117,10 @@
     - thing: Game Jam
     - thing: Unity
     - thing: Duo
+    - thing: C#
+    - thing: Windows
+    - thing: MacOS
+    - thing: WebGL
 
 - name: Dream Smasher
   jam: THE UNDERDOG JAM CUP
@@ -111,6 +135,10 @@
     - thing: Game Jam
     - thing: Unity
     - thing: Solo
+    - thing: C#
+    - thing: Windows
+    - thing: Linux
+    - thing: WebGL
 
 - name: Reverso
   jam: 'CCAW JAM'
@@ -125,6 +153,10 @@
     - thing: Game Jam
     - thing: Unity
     - thing: Duo
+    - thing: C#
+    - thing: Windows
+    - thing: MacOS
+    - thing: WebGL
 
 - name: Love Triangle
   jam: 'Pizza Jam'
@@ -139,6 +171,8 @@
     - thing: Game Jam
     - thing: Unity
     - thing: Duo
+    - thing: C#
+    - thing: WebGL
 
 - name: The Finite Hallway
   jam: 'Weekly Game Jam - Week 87'
@@ -153,6 +187,8 @@
     - thing: Game Jam
     - thing: Unity
     - thing: Duo
+    - thing: C#
+    - thing: WebGL
 
 - name: One In The Chamber
   jam: 'GMTK Game Jam 2019'
@@ -166,7 +202,10 @@
   used:
     - thing: Game Jam
     - thing: Unity
-    - thing: Quadra
+    - thing: Team of 4
+    - thing: C#
+    - thing: Windows
+    - thing: WebGL
 
 - name: Water Drops
   jam: 'Extra Credits Game Jam #3'
@@ -181,6 +220,8 @@
     - thing: Game Jam
     - thing: Unity
     - thing: Duo
+    - thing: C#
+    - thing: WebGL
 
 - name: SingList
   jam: 'HackOMania 2019'
@@ -194,4 +235,6 @@
   used:
     - thing: Hackathon
     - thing: Unity
-    - thing: Quadra
+    - thing: Team of 4
+    - thing: C#
+    - thing: Android
